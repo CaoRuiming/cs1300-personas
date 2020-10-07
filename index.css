@@ -1,1 +1,34 @@
 /* Put your style information here! */
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    max-width: 1000px;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3, h4, p div {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 2.5em;
+}
+h3 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.5em;
+}
+p, li {
+    font-size: 1.1em;
+}
