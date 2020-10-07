@@ -3,6 +3,7 @@
 body {
     display: flex;
     justify-content: center;
+    font-size: 110%;
 }
 
 main {
@@ -69,3 +70,12 @@ ol.storyboard {
     padding: 20px;
     border: 1px solid black;
 }
+
+
+/* Mobile Styling Tweaks */
+
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 3em;
+    }
+  }
